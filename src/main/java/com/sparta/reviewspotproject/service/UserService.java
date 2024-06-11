@@ -26,7 +26,7 @@ public class UserService {
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
     private final JavaMailSender javaMailSender;
-    private static final String senderEmail = "ReviewSpot@gmail.com";
+    private static final String senderEmail = "0reviewspot0@gmail.com";
     private static int code;
     private final Map<String, String> verificationCodes = new HashMap<>();
     private final Map<String, Boolean> verificationStatus = new HashMap<>();
